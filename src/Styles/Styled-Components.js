@@ -4,6 +4,7 @@ import {css} from 'styled-components'
 export const Main = styled.div`
     background:#FAF9FA;
     height:100vh;
+    padding : 15px 0;
 `;
 
 export const Heading = styled.h1`
@@ -48,9 +49,13 @@ export const Detail = styled.h6`
 `;
 export const CountryInput = styled.div`
     width:100%;
+    margin:15px 0;
 `;
 
 export const Input = styled.div`
     width:250px;
     height:10px;
+`
+export const CovImg = styled.div`
+    margin:15px 0;
 `
